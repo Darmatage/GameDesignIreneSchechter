@@ -50,29 +50,29 @@ public class DialogueScene1 : MonoBehaviour {
 		if (primeInt == 2){ 
 			ArtChar1.SetActive(true); 
 			dialogue.SetActive(true); 
-			Char1name.text = "Jeda"; 
-			Char1speech.text = "Wakey wakey, human.";
+			Char1name.text = "You"; 
+			Char1speech.text = "Hey Rupert. Heard anything about the new exhibit?";
 			Char2name.text = ""; 
 			Char2speech.text = "";
 		}
 		else if (primeInt ==3){
 			Char1name.text = ""; 
 			Char1speech.text = "";
-			Char2name.text = "You"; 
-			Char2speech.text = "Wuh..? What happended?";
+			Char2name.text = "Rupert"; 
+			Char2speech.text = "Seems like its some never before heard of Da Vinci painting. Was told to be careful around it. It's currently in Gallery 3. Where are you gonna start your security shift?";
 			//gameHandler.AddPlayerStat(1);
 		} 
 		else if (primeInt == 4){
-			Char1name.text = "Jeda"; 
-			Char1speech.text = "I know I did not hit you that hard.";
+			Char1name.text = "You"; 
+			Char1speech.text = "I'm gonna start with Gallery 1, but I'll keep an eye out for that new painting.";
 			Char2name.text = ""; 
 			Char2speech.text = "";
 		} 
 		else if (primeInt == 5){
 			Char1name.text = ""; 
 			Char1speech.text = "";
-			Char2name.text = "You"; 
-			Char2speech.text = "Hit me? Why?"; 
+			Char2name.text = "Rupert"; 
+			Char2speech.text = "Well I'll be around cleaning. Let me know if you need anything."; 
 			//gameHandler.AddPlayerStat(1);
 		} 
 		else if (primeInt == 6){
