@@ -69,7 +69,7 @@ public class DialogueScene1 : MonoBehaviour {
 			Char2speech.text = "";
 		}
 		else if (primeInt ==3){
-			ArtChar1.SetActive(true); 
+			ArtChar4.SetActive(true); 
 			Char1name.text = ""; 
 			Char1speech.text = "";
 			Char2name.text = "Rupert"; 
@@ -119,7 +119,9 @@ public class DialogueScene1 : MonoBehaviour {
 			NextScene1Button.SetActive(true);
 		} 
 
-	} 
+	}
+
+
 			
 	public void SceneChange2(){
 		SceneManager.LoadScene("Scene2");
