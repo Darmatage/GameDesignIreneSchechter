@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class DialogueScene3 : MonoBehaviour
+public class DialogueScene2b : MonoBehaviour
 {
 	public int primeInt = 1; // This integer drives game progress!
 	public Text Char1name;
@@ -68,9 +68,9 @@ public class DialogueScene3 : MonoBehaviour
 			dialogue.SetActive(true);
 			ArtChar3.SetActive(true);
 			Char1name.text = "";
-			Char1speech.text = "Boy";
-			Char2name.text = "Uh hi?";
-			Char2speech.text = "";
+			Char1speech.text = "";
+			Char2name.text = "Boy";
+			Char2speech.text = "Uh hi?";
 	
 		}
 		else if (primeInt == 3)
@@ -131,39 +131,38 @@ public class DialogueScene3 : MonoBehaviour
 		nextButton.SetActive(false);
 			allowSpace = false;
 			NextScene2Button.SetActive(true); //Maybe I should check out the bathroom
-		}
 	}
 
-    // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
-public void Choice1aFunct()
-{
-	Char1name.text = "You";
-	Char1speech.text = "I know the new curator and you're definitely not her.";
-	Char2name.text = "";
-	Char2speech.text = "";
-	primeInt = 99;
-	Choice1a.SetActive(false);
-	Choice1b.SetActive(false);
-	Choice1c.SetActive(false);
-	nextButton.SetActive(true);
-	allowSpace = true;
-}
-public void Choice1bFunct()
-{
-	Char1name.text = "You";
-	Char1speech.text = "This guy is clearly sketchy. I should find Rupert.";
-	Char2name.text = "";
-	Char2speech.text = "";
-	primeInt = 199;
-	Choice1a.SetActive(false);
-	Choice1b.SetActive(false);
-	Choice1c.SetActive(false);
-	nextButton.SetActive(false);
-	allowSpace = false;
-	NextScene2Button.SetActive(true);
-}
+	// FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
+	public void Choice1aFunct()
+	{
+		Char1name.text = "You";
+		Char1speech.text = "I know the new curator and you're definitely not her.";
+		Char2name.text = "";
+		Char2speech.text = "";
+		primeInt = 99;
+		Choice1a.SetActive(false);
+		Choice1b.SetActive(false);
+		Choice1c.SetActive(false);
+		nextButton.SetActive(true);
+		allowSpace = true;
+	}
+	public void Choice1bFunct()
+	{
+		Char1name.text = "You";
+		Char1speech.text = "This guy is clearly sketchy. I should find Rupert.";
+		Char2name.text = "";
+		Char2speech.text = "";
+		primeInt = 199;
+		Choice1a.SetActive(false);
+		Choice1b.SetActive(false);
+		Choice1c.SetActive(false);
+		nextButton.SetActive(false);
+		allowSpace = false;
+		NextScene2Button.SetActive(true);
+	}
 
-    public void SceneChangeEndLose()
+	public void SceneChangeEndLose()
 	{
 		SceneManager.LoadScene("EndLose");
 	}

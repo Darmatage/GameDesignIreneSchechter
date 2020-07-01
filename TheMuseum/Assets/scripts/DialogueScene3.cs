@@ -205,9 +205,10 @@ public class DialogueScene3c : MonoBehaviour
 			allowSpace = false;
 			NextScene1Button.SetActive(true); // I better go check out the bathroom
 		}
+	}
 
 // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
-		public void Choice1aFunct()
+	public void Choice1aFunct()
 	{
 		Char1name.text = "You";
 		Char1speech.text = "Let's go for it!";
