@@ -97,6 +97,8 @@ public class DialogueScene2b : MonoBehaviour
 		// ENCOUNTER AFTER CHOICE #1
 		else if (primeInt == 100)
 		{
+			ArtChar1.SetActive(false);
+			ArtChar3.SetActive(false);
 			ArtChar2.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
@@ -104,13 +106,15 @@ public class DialogueScene2b : MonoBehaviour
 			Char2speech.text = "I need backup!";
 			nextButton.SetActive(false);
 			allowSpace = false;
-			NextScene1Button.SetActive(true);
+			NextScene1Button.SetActive(true); // ending - lose (get tied up)
 
 		}
 
 		else if (primeInt == 300)
 		{
-			ArtChar3.SetActive(true);
+			ArtChar1.SetActive(false);
+			ArtChar3.SetActive(false);
+			ArtChar2.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "Boy";
@@ -119,23 +123,18 @@ public class DialogueScene2b : MonoBehaviour
 		}
 		else if (primeInt == 301)
 		{
-			ArtChar3.SetActive(true);
 			Char1name.text = "You";
 			Char1speech.text = "Well if you help me catch them I can let you go.";
 			Char2name.text = "";
 			Char2speech.text = "";
-			NextScene1Button.SetActive(true);
-
-		}
-
-		nextButton.SetActive(false);
+			nextButton.SetActive(false);
 			allowSpace = false;
-			NextScene2Button.SetActive(true); //Maybe I should check out the bathroom
+			NextScene2Button.SetActive(true); //scene 3
+		}
 	}
 
 	// FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
-	public void Choice1aFunct()
-	{
+	public void Choice1aFunct(){
 		Char1name.text = "You";
 		Char1speech.text = "I know the new curator and you're definitely not her.";
 		Char2name.text = "";
@@ -147,10 +146,9 @@ public class DialogueScene2b : MonoBehaviour
 		nextButton.SetActive(true);
 		allowSpace = true;
 	}
-	public void Choice1bFunct()
-	{
+	public void Choice1bFunct(){
 		Char1name.text = "You";
-		Char1speech.text = "This guy is clearly sketchy. I should find Rupert.";
+		Char1speech.text = "(This guy is clearly sketchy. I should find Rupert.)";
 		Char2name.text = "";
 		Char2speech.text = "";
 		primeInt = 199;
@@ -159,12 +157,25 @@ public class DialogueScene2b : MonoBehaviour
 		Choice1c.SetActive(false);
 		nextButton.SetActive(false);
 		allowSpace = false;
-		NextScene2Button.SetActive(true);
+		NextScene2Button.SetActive(true); // goes to scene 3
+	}
+
+	public void Choice1cFunct(){
+		Char1name.text = "You";
+		Char1speech.text = "Who are you, really?";
+		Char2name.text = "";
+		Char2speech.text = "";
+		primeInt = 299;
+		Choice1a.SetActive(false);
+		Choice1b.SetActive(false);
+		Choice1c.SetActive(false);
+		nextButton.SetActive(true);
+		allowSpace = true;
 	}
 
 	public void SceneChangeEndLose()
 	{
-		SceneManager.LoadScene("EndLose");
+		SceneManager.LoadScene("End_Lose");
 	}
 	public void SceneChangeScene3()
 	{

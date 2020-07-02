@@ -87,76 +87,7 @@ public class DialogueScene3b : MonoBehaviour {
 			Char3speech.text = "I think there's someone behind that pillar.";  
 			nextButton.SetActive(false);
 			allowSpace = false;
-			NextScene1Button.SetActive(true); // I better go check out the bathroom
-		}
-
-
-
-		else if (primeInt == 200){
-			ArtChar1.SetActive(true);
-			Char1name.text = "";
-			Char1speech.text = "";
-			Char2name.text = "???";
-			Char2speech.text = "They said it would be somewhere near this gallery"; 
-			Char3name.text = "";
-			Char3speech.text = "";
-		}
-
-		else if (primeInt == 201){
-			Char1name.text = "";
-			Char1speech.text = "";
-			Char2name.text = "";
-			Char2speech.text = ""; 
-			Char3name.text = "???";
-			Char3speech.text = "Well, it's clearly not here. We have to look somehwre else.";
-		}
-
-		else if (primeInt == 202){
-			Char1name.text = "";
-			Char1speech.text = "";
-			Char2name.text = "???";
-			Char2speech.text = "I'm telling you what I know!"; 
-			Char3name.text = "";
-			Char3speech.text = "";
-		}
-
-		else if (primeInt == 203){
-			Char1name.text = "";
-			Char1speech.text = "";
-			Char2name.text = "";
-			Char2speech.text = ""; 
-			Char3name.text = "???";
-			Char3speech.text = "Where did Little Joey get to?";
-		}
-
-		else if (primeInt == 204){
-			Char1name.text = "";
-			Char1speech.text = "";
-			Char2name.text = "???";
-			Char2speech.text = "He had to go take a leak. Keep looking for the painting."; 
-			Char3name.text = "";
-			Char3speech.text = "";
-		}
-
-		else if (primeInt == 205){
-			Char1name.text = "You";
-			Char1speech.text = "These guys are sounding suspicious.";
-			Char2name.text = "";
-			Char3speech.text = "";
-			Char3name.text = "";
-			Char2speech.text = "";
-		}
-
-		else if (primeInt == 206){
-			Char1name.text = "You";
-			Char1speech.text = "These guys are sounding suspicious.";
-			Char2name.text = "";
-			Char3speech.text = "";
-			Char3name.text = "";
-			Char2speech.text = "";
-			nextButton.SetActive(false);
-			allowSpace = false;
-			//NextScene2Button.SetActive(true); //Maybe I should check out the bathroom
+			NextScene1Button.SetActive(true); // try to run
 		}
 	}
 
