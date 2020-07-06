@@ -185,7 +185,7 @@ public class DialogueScene2 : MonoBehaviour {
 			Char2name.text = "";
 			Char2speech.text = ""; 
 			Char3name.text = "???";
-			Char3speech.text = "Well, it's clearly not here. We have to look somehwre else.";
+			Char3speech.text = "Well, it's clearly not here. We have to look somewhere else.";
 		}
 
 		else if (primeInt == 202){
