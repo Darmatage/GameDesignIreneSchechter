@@ -154,10 +154,10 @@ RectTransform:
   m_Father: {fileID: 964153419}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.24375, y: 0.074673146}
-  m_AnchorMax: {x: 0.785, y: 1}
-  m_AnchoredPosition: {x: 2.9249878, y: 34.5}
-  m_SizeDelta: {x: 18.15, y: 67.3}
+  m_AnchorMin: {x: 0.18250002, y: 0}
+  m_AnchorMax: {x: 0.91937494, y: 1}
+  m_AnchoredPosition: {x: 1.5, y: 88.5}
+  m_SizeDelta: {x: 8.600006, y: 231.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4765267
 MonoBehaviour:
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 964153415}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -581,7 +581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &191878927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,8 +625,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 191878926}
-        m_MethodName: 
+      - m_Target: {fileID: 964153415}
+        m_MethodName: SceneChange3b
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -754,8 +754,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 316891003}
-        m_MethodName: 
+      - m_Target: {fileID: 964153415}
+        m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -816,10 +816,10 @@ RectTransform:
   m_Father: {fileID: 964153419}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.54187506, y: 0.052461732}
-  m_AnchorMax: {x: 0.68500006, y: 0.115577154}
-  m_AnchoredPosition: {x: -1.2000122, y: 1.4998779}
-  m_SizeDelta: {x: 12.400002, y: 13}
+  m_AnchorMin: {x: 0.6625, y: 0.052461732}
+  m_AnchorMax: {x: 0.8093751, y: 0.115577154}
+  m_AnchoredPosition: {x: 5, y: 1.4998779}
+  m_SizeDelta: {x: 6.399994, y: 13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &411972902
 GameObject:
@@ -883,8 +883,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 411972902}
-        m_MethodName: 
+      - m_Target: {fileID: 964153415}
+        m_MethodName: SceneChange3c
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1492,8 +1492,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 846800618}
-        m_MethodName: 
+      - m_Target: {fileID: 964153415}
+        m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1554,10 +1554,10 @@ RectTransform:
   m_Father: {fileID: 964153419}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.17437503, y: 0.02246622}
-  m_AnchorMax: {x: 0.33125013, y: 0.115577154}
-  m_AnchoredPosition: {x: 4.4000244, y: 15.004028}
-  m_SizeDelta: {x: -1.2999992, y: -14.009}
+  m_AnchorMin: {x: 0.46875006, y: 0.052461732}
+  m_AnchorMax: {x: 0.62375, y: 0.115577154}
+  m_AnchoredPosition: {x: -6.5, y: 1.5040283}
+  m_SizeDelta: {x: 1.7000122, y: 12.991001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &899120324
 GameObject:
