@@ -192,7 +192,7 @@ public class DialogueScene3c : MonoBehaviour
 			nextButton.SetActive(true);
 			allowSpace = true;
 		}
-		else if (primeInt == 104)
+		else if (primeInt == 203)
 		{
 			ArtChar1.SetActive(false);
 			ArtChar2.SetActive(true);
@@ -204,7 +204,7 @@ public class DialogueScene3c : MonoBehaviour
 			Char3speech.text = "Oh. You again. And a friend. Nice to see you both.";
 			nextButton.SetActive(false);
 			allowSpace = false;
-			NextScene1Button.SetActive(true); // I better go check out the bathroom
+			NextScene1Button.SetActive(true); 
 		}
 	}
 

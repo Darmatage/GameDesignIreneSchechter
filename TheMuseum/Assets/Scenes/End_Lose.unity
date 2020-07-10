@@ -313,10 +313,10 @@ RectTransform:
   m_Father: {fileID: 1370781071}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10542327, y: 0.6487819}
+  m_AnchorMin: {x: 0.10687913, y: 0.43558335}
   m_AnchorMax: {x: 0.8974233, y: 1}
-  m_AnchoredPosition: {x: 1.6999817, y: -0.099975586}
-  m_SizeDelta: {x: 4.200012, y: 0.2000122}
+  m_AnchoredPosition: {x: 1.1999817, y: 2.900004}
+  m_SizeDelta: {x: 5.2, y: -5.699997}
   m_Pivot: {x: 0.50000006, y: 0.49999997}
 --- !u!114 &707266435
 MonoBehaviour:
@@ -349,7 +349,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "You got tied up! \nThe thieves escaped. \nGAME OVER"
+  m_Text: "The thieves caught you.\nYou got tied up! \nThe thieves escaped. \nGAME
+    OVER"
 --- !u!222 &707266436
 CanvasRenderer:
   m_ObjectHideFlags: 0

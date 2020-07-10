@@ -7,7 +7,9 @@ using UnityEngine.Audio;
 
 
 public class DialogueScene1 : MonoBehaviour { 
-	public int primeInt = 0; // This integer drives game progress!
+	public int primeInt = 1; // This integer drives game progress!
+	public GameObject textTitle1; 
+	public GameObject textTitle2; 
 	public Text Char1name; 
 	public Text Char1speech;
 	public Text Char2name; 
@@ -30,6 +32,8 @@ public class DialogueScene1 : MonoBehaviour {
 	private bool allowSpace = true;
 
 	void Start(){
+		textTitle1.SetActive(true);
+		textTitle2.SetActive(false);
 		dialogue.SetActive(false);
 		ArtChar1.SetActive(false); 
 		ArtChar2.SetActive(false); 
@@ -59,9 +63,12 @@ public class DialogueScene1 : MonoBehaviour {
 		primeInt = primeInt + 1;
 		// Simple "follow" story units: player hits "Next" button to show each unit
 		if (primeInt == 1){
+			textTitle1.SetActive(false);
+			textTitle2.SetActive(true);
 			//audioSource.Play();
 		}
 		if (primeInt == 2){ 
+			textTitle2.SetActive(false);
 			dialogue.SetActive(true); 
 			Char1name.text = "You"; 
 			Char1speech.text = "Hey Rupert. Heard anything about the new exhibit?";

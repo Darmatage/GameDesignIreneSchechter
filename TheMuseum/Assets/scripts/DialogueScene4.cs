@@ -37,7 +37,10 @@ public class DialogueScene4 : MonoBehaviour {
 		dialogue.SetActive(false);
 		ArtChar1.SetActive(false);
 		ArtChar2.SetActive(false);
+		ArtChar3.SetActive(false);
+		ArtChar4.SetActive(false);
 		ArtBG1.SetActive(true);
+		ArtBG2.SetActive(false);
 		Choice1a.SetActive(false);
 		Choice1b.SetActive(false);
 		NextScene1Button.SetActive(false);
