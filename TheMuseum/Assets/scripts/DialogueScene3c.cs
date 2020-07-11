@@ -204,7 +204,7 @@ public class DialogueScene3c : MonoBehaviour
 			Char3speech.text = "Oh. You again. And a friend. Nice to see you both.";
 			nextButton.SetActive(false);
 			allowSpace = false;
-			NextScene1Button.SetActive(true); 
+			NextScene2Button.SetActive(true); 
 		}
 	}
 
