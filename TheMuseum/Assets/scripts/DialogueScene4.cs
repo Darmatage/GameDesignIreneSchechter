@@ -205,8 +205,8 @@ public class DialogueScene4 : MonoBehaviour {
 			Char1speech.text = "I have this one pinned. What can I tie him with?";
 			Char2name.text = "";
 			Char2speech.text = "";
-			Char2name.text = "";
-			Char2speech.text = "";
+			Char3name.text = "";
+			Char3speech.text = "";
 			Char4name.text = "";
 			Char4speech.text = "";
 			Char5name.text = "";
@@ -221,8 +221,8 @@ public class DialogueScene4 : MonoBehaviour {
 			Char1speech.text = "";
 			Char2name.text = "";
 			Char2speech.text = "";
-			Char2name.text = "";
-			Char2speech.text = "";
+			Char3name.text = "";
+			Char3speech.text = "";
 			Char4name.text = "Rupert";
 			Char4speech.text = "Here is some rope!";
 			Char5name.text = "";
@@ -235,8 +235,8 @@ public class DialogueScene4 : MonoBehaviour {
 			Char1speech.text = "Why do you have rope?";
 			Char2name.text = "";
 			Char2speech.text = "";
-			Char2name.text = "";
-			Char2speech.text = "";
+			Char3name.text = "";
+			Char3speech.text = "";
 			Char4name.text = "";
 			Char4speech.text = "";
 			Char5name.text = "";
@@ -248,8 +248,8 @@ public class DialogueScene4 : MonoBehaviour {
 			Char1speech.text = "";
 			Char2name.text = "";
 			Char2speech.text = "";
-			Char2name.text = "";
-			Char2speech.text = "";
+			Char3name.text = "";
+			Char3speech.text = "";
 			Char4name.text = "Rupert";
 			Char4speech.text = "Are you complaining?";
 			Char5name.text = "";
@@ -262,7 +262,10 @@ public class DialogueScene4 : MonoBehaviour {
 
 
 		else if (primeInt == 200){
-			ArtChar1.SetActive(true);
+			ArtChar1.SetActive(false);
+			ArtChar2.SetActive(false);
+			ArtChar3.SetActive(false);
+			ArtChar4.SetActive(true);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "";
@@ -278,7 +281,10 @@ public class DialogueScene4 : MonoBehaviour {
 		else if (primeInt == 201){
 			ArtBG1.SetActive(false);
 			ArtBG2.SetActive(true);
+			ArtChar1.SetActive(false);
+			ArtChar2.SetActive(false);
 			ArtChar3.SetActive(false);
+			ArtChar4.SetActive(true);
 			Char1name.text = "You";
 			Char1speech.text = "Okay mine are locked!";
 			Char2name.text = "";
@@ -400,9 +406,9 @@ public class DialogueScene4 : MonoBehaviour {
 	}
 
 	public void SceneChange2a(){
-		SceneManager.LoadScene("Scene2a");
+		SceneManager.LoadScene("End_Win");
 	}
 	public void SceneChange2b(){
-		SceneManager.LoadScene("Scene2b");
+		SceneManager.LoadScene("End_Lose");
 	}
 }

@@ -242,6 +242,6 @@ public class DialogueScene3c : MonoBehaviour
 	}
 	public void SceneChange2b()
 	{
-		SceneManager.LoadScene("SceneEnd_Lose");
+		SceneManager.LoadScene("End_Lose");
 	}
 }
