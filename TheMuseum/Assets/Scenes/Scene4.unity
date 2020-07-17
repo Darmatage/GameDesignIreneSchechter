@@ -888,7 +888,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 964153415}
-        m_MethodName: SceneChange2b
+        m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -949,10 +949,10 @@ RectTransform:
   m_Father: {fileID: 964153419}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.559375, y: 0.052461732}
-  m_AnchorMax: {x: 0.68500006, y: 0.115577154}
-  m_AnchoredPosition: {x: 5.5, y: 1.5}
-  m_SizeDelta: {x: -1, y: 13}
+  m_AnchorMin: {x: 0.64312494, y: 0.052461732}
+  m_AnchorMax: {x: 0.7643751, y: 0.115577154}
+  m_AnchoredPosition: {x: -9.5, y: 6.5}
+  m_SizeDelta: {x: 6, y: 13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &372389602
 GameObject:
@@ -1294,7 +1294,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I better go check out the bathroom
+  m_Text: Time to get them!
 --- !u!222 &477094979
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1776,8 +1776,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.36812502, y: 0.02246622}
   m_AnchorMax: {x: 0.5, y: 0.14112717}
-  m_AnchoredPosition: {x: 6.75, y: 3.5219727}
-  m_SizeDelta: {x: 24.5, y: -36.959}
+  m_AnchoredPosition: {x: 145, y: 3.5223389}
+  m_SizeDelta: {x: 24.5, y: -37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &899120324
 GameObject:
@@ -2327,7 +2327,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Maybe I should check out the bathroom
+  m_Text: Uh oh...
 --- !u!222 &1333477460
 CanvasRenderer:
   m_ObjectHideFlags: 0
