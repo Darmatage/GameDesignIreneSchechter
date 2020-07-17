@@ -2164,6 +2164,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 5753242886912901883, guid: fd5c296a1b04a4845ab6698534d47d7c,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753242886912901883, guid: fd5c296a1b04a4845ab6698534d47d7c,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd5c296a1b04a4845ab6698534d47d7c, type: 3}
 --- !u!1 &1139461066 stripped
