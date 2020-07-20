@@ -175,6 +175,7 @@ public class DialogueScene4 : MonoBehaviour {
 
 		else if (primeInt == 103){
 			ArtChar1.SetActive(true);
+			ArtChar2.SetActive(false);
 			Char1name.text = "";
 			Char1speech.text = "";
 			Char2name.text = "Thief 1";
