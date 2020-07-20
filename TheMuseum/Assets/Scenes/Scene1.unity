@@ -206,6 +206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TextTitle2
       objectReference: {fileID: 0}
+    - target: {fileID: 8255980679499411825, guid: 4730a3ab0efcd8c4091e7aea354f4959,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8255980679499411830, guid: 4730a3ab0efcd8c4091e7aea354f4959,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -790,7 +795,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 85
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -2324,7 +2329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.17437503, y: 0.02246622}
   m_AnchorMax: {x: 0.29687503, y: 0.115577154}
-  m_AnchoredPosition: {x: 7.000061, y: 14.999756}
+  m_AnchoredPosition: {x: 7.0000916, y: 14.999756}
   m_SizeDelta: {x: 4, y: -14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &899120324
@@ -2392,7 +2397,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 85
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -2582,7 +2587,7 @@ PrefabInstance:
     - target: {fileID: 8255980679499411825, guid: 4730a3ab0efcd8c4091e7aea354f4959,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8255980679499411830, guid: 4730a3ab0efcd8c4091e7aea354f4959,
         type: 3}
@@ -2692,9 +2697,7 @@ PrefabInstance:
     - target: {fileID: 8255980679499411831, guid: 4730a3ab0efcd8c4091e7aea354f4959,
         type: 3}
       propertyPath: m_Text
-      value: 'One day, after the last patron
-
-        had left for the evening...'
+      value: "One day, after the \nlast patron has left \nfor the evening..."
       objectReference: {fileID: 0}
     - target: {fileID: 8255980679499411831, guid: 4730a3ab0efcd8c4091e7aea354f4959,
         type: 3}
